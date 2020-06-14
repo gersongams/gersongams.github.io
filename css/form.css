@@ -1,6 +1,7 @@
 .form-container {
   min-height: calc(100vh - 180px);
   margin: 2rem auto;
+  padding: 2rem;
 }
 
 .form-container form {
@@ -11,6 +12,7 @@
 
 .suscribe-title {
   font-size: 1.8rem;
+  text-align: center;
 }
 
 .form-item {

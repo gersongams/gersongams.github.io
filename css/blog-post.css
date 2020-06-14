@@ -86,7 +86,14 @@
   color: var(--primary-color);
 }
 
-@media (min-width: 900px) {
+@media (min-width: 600px) and (max-width: 900px) {
+  .article-container {
+    width: 90%;
+    margin: 2rem auto;
+  }
+}
+
+@media (min-width: 901px) {
   .article-container {
     width: 85%;
     max-width: 800px;
