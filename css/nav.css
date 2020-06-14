@@ -1,0 +1,30 @@
+.blog-header {
+  height: 80px;
+  padding: 8px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.blog-logo_title {
+  margin: 0;
+}
+
+.blog-logo_title a {
+  color: var(--primary-color);
+  text-decoration: none;
+  margin: 0;
+}
+
+.nav-item a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.blog-header a:hover,
+.blog-header a:focus,
+.blog-header a:active {
+  color: var(--primary-color);
+}

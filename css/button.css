@@ -1,0 +1,23 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  border: transparent;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.btn--ghost {
+  color: var(--primary-color);
+  background-color: transparent;
+  border: 1px solid var(--primary-color);
+}
+
+.btn--ghost:hover,
+.btn--ghost:active,
+.btn--ghost:focus {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}

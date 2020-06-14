@@ -1,0 +1,38 @@
+.form-container {
+  min-height: calc(100vh - 180px);
+  margin: 2rem auto;
+}
+
+.form-container form {
+  background-color: var(--card-bg-color);
+  padding: 2rem;
+  border-radius: var(--radius);
+}
+
+.suscribe-title {
+  font-size: 1.8rem;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.form-item label {
+  margin-bottom: 0.4rem;
+  font-size: 14px;
+}
+
+.form-item input {
+  background: transparent;
+  border: 1px solid white;
+  border-radius: var(--radius);
+  padding: 8px 12px;
+  color: white;
+  outline: var(--primary-color);
+}
+
+.form-container form .btn {
+  margin-left: auto;
+}

@@ -1,0 +1,8 @@
+:root {
+  --bg-color: #121212;
+  --card-bg-color: #222222;
+  --primary-color: #53a353;
+  --text-color: #ffffff;
+  --radius: 5px;
+  --shadow: 0 0 12px 6px rgba(0, 0, 0, 0.05);
+}
